@@ -11,4 +11,4 @@ tag @e remove bloodS
 tag @e remove bloodM
 tag @e remove bloodL
 
-datapack disable "file/goremod"
+datapack disable "file/GoreMod"
