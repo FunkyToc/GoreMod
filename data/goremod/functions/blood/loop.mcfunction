@@ -11,7 +11,8 @@ tag @a[tag=!blood,nbt={HurtTime:9s}] add blood
 
 # Blood particule
 execute as @e[type=!player,tag=blood] at @s run function goremod:blood/bloodentity
-execute as @a[tag=blood] at @s run function goremod:blood/bloodplayer
+execute as @a[tag=blood] at @s unless block ~ ~1.3 ~ minecraft:water run function goremod:blood/bloodplayer
+execute as @a[tag=blood] at @s if block ~ ~1.3 ~ minecraft:water run function goremod:blood/bloodwater
 tag @e[tag=blood] remove blood
 
 # Players Damage
