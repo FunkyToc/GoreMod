@@ -4,6 +4,8 @@
 
 # entities
 execute as @s[type=bat] run particle minecraft:block redstone_block ~ ~ ~ 0.1 0.1 0.1 1 5 normal
+execute as @s[type=bee] run particle minecraft:block slime_block ~ ~0.2 ~ 0.1 0.1 0.1 1 3 normal
+execute as @s[type=bee,nbt={Age:0}] run particle minecraft:block slime_block ~ ~0.4 ~ 0.1 0.1 0.1 1 5 normal
 execute as @s[type=blaze] run particle minecraft:block coal_block ~ ~1.2 ~ 0.2 0.1 0.2 1 30 normal
 execute as @s[type=cave_spider] run particle minecraft:block lime_concrete_powder ~ ~0.5 ~ 0.2 0.1 0.2 1 10 normal
 execute as @s[type=chicken] run particle minecraft:block redstone_block ~ ~0.3 ~ 0.1 0.1 0.1 1 5 normal

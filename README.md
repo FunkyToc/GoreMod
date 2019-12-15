@@ -2,7 +2,7 @@
 A Minecraft Datapack to add blood and bleedings in vanilla.
 
 # Requires 
-- Minecraft 1.13/1.14
+- Minecraft 1.15+
 
 # Use
 1. Download the package and unzip it
