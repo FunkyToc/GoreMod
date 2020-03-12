@@ -56,7 +56,7 @@ execute as @s[type=panda] run particle minecraft:block redstone_block ~ ~0.5 ~ 0
 execute as @s[type=panda,nbt={Age:0}] run particle minecraft:block redstone_block ~ ~1.2 ~ 0.2 0.2 0.2 1 20 normal
 execute as @s[type=pig] run particle minecraft:block redstone_block ~ ~0.5 ~ 0.1 0.1 0.1 1 5 normal
 execute as @s[type=pig,nbt={Age:0}] run particle minecraft:block redstone_block ~ ~0.6 ~ 0.2 0.1 0.2 1 10 normal
-execute as @s[type=pillager] run particle minecraft:block redstone_block ~ ~1.2 ~ 0.1 0.1 0.1 1 5 normal
+execute as @s[type=pillager] run particle minecraft:block redstone_block ~ ~1.2 ~ 0.1 0.1 0.1 1 10 normal
 execute as @s[type=polar_bear] run particle minecraft:block redstone_block ~ ~0.5 ~ 0.1 0.1 0.1 1 10 normal
 execute as @s[type=polar_bear,nbt={Age:0}] run particle minecraft:block redstone_block ~ ~1 ~ 0.2 0.2 0.2 1 20 normal
 execute as @s[type=pufferfish] run particle minecraft:block redstone_block ~ ~ ~ 0.1 0.1 0.1 1 5 normal
