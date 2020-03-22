@@ -1,7 +1,3 @@
-# goremod:fallimpact/loop
-# display particules on fall damage
-
-
 # Fallimpact particule
 execute as @a[tag=fallimpact] at @s run function goremod:fallimpact/fallimpact
 tag @a[tag=fallimpact] remove fallimpact
@@ -16,4 +12,3 @@ scoreboard players reset @a[scores={GM_FallImpact=1..}] GM_FallImpact
 execute if entity @a[tag=fallimpactS] run function goremod:fallimpact/fallimpactforce
 execute if entity @a[tag=fallimpactM] run function goremod:fallimpact/fallimpactforce
 execute if entity @a[tag=fallimpactL] run function goremod:fallimpact/fallimpactforce
-

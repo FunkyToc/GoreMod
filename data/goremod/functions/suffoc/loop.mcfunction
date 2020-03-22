@@ -1,8 +1,4 @@
-# goremod:suffoc/loop
-# detect suffocation
-
-
-# Default
+# suffoc
 tag @a[tag=!suffoc,nbt={HurtTime:9s},scores={GM_Air=..0}] add suffoc
 
 # Bubble particule

@@ -1,7 +1,3 @@
-# goremod:blood/loop
-# detect damage and low health
-
-
 # Blood force
 function goremod:blood/bloodforce
 

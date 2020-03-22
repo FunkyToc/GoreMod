@@ -1,15 +1,15 @@
 # GoreMod
-A Minecraft Datapack to add blood and bleedings in vanilla.
+A Minecraft Datapack to add blood, bleedings, suffocations and broken bones. It's pure cosmetics.
 
 # Requires 
-- Minecraft 1.15+
+- Minecraft 1.13 / 1.14 / 1.15 / 1.16
 
 # Use
 1. Download the package and unzip it
 2. Copy/paste the entire "GoreMod/" folder in your "saves/your-map/datapacks/" folder.
 3. Launch the game/server and play your map.
 
-- Disable the datapack : /datapack disable "file/GoreMod"
+- Disable the datapack : /function goremod:uninstall
 - Re-enable the datapack : /datapack enable "file/GoreMod"
 
 # Author
