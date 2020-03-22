@@ -1,5 +1,6 @@
 {
     "values": [
-        "goremod:load"
+        "goremod:load",
+        "mcv:get_mc_version"
     ]
 }
