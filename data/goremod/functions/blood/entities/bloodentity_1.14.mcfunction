@@ -1,4 +1,3 @@
-function goremod:blood/bloodentity_1.13
 execute as @s[type=cat] run particle minecraft:block redstone_block ~ ~0.3 ~ 0.1 0.1 0.1 1 5
 execute as @s[type=cat,nbt={Age:0}] run particle minecraft:block redstone_block ~ ~0.5 ~ 0.1 0.1 0.1 1 10
 execute as @s[type=fox] run particle minecraft:block redstone_block ~ ~0.3 ~ 0.1 0.1 0.1 1 5
