@@ -9,12 +9,15 @@ scoreboard players set @a GM_DmgDealt 0
 scoreboard players set @a GM_FallImpact 0
 scoreboard players set @a GM_Swim 0
 scoreboard players set @a GM_BleedCD 0
+
+# parameters
 scoreboard players set ConstBleedCD GM_BleedCD 5
+
+# mc version
+scoreboard players set McVersion GM_Options 116
+
 # tellraw
 tellraw @a ["",{"text":"GoreMod","bold":true,"color":"gold"}]
-execute if score McVersion GM_Options matches 113 run tellraw @a ["",{"text":"Installed with Minecraft "},{"text":"1.13","bold":true},{"text":" features"}]
-execute if score McVersion GM_Options matches 114 run tellraw @a ["",{"text":"Installed with Minecraft "},{"text":"1.14","bold":true},{"text":" features"}]
-execute if score McVersion GM_Options matches 115 run tellraw @a ["",{"text":"Installed with Minecraft "},{"text":"1.15","bold":true},{"text":" features"}]
-execute if score McVersion GM_Options matches 116 run tellraw @a ["",{"text":"Installed with Minecraft "},{"text":"1.16","bold":true},{"text":" features"}]
+tellraw @a ["",{"text":"Installed with Minecraft "},{"score":{"name":"McVersion","objective":"GM_Options"},"bold":true},{"text":" features"}]
 tellraw @a ["",{"text":"Developped with love by "},{"text":"FunkyToc","color":"dark_purple","bold":true,"clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/"}}]
 tellraw @a ["",{"text":"More infos on "},{"text":"naturize.fr","color":"dark_purple","clickEvent":{"action":"open_url","value":"http://naturize.fr"}}]

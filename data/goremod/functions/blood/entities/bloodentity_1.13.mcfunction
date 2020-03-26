@@ -89,5 +89,3 @@ execute as @s[type=zombie_horse] run particle minecraft:block nether_wart_block 
 execute as @s[type=zombie_horse] run particle minecraft:block lime_concrete_powder ~ ~0.8 ~ 0.1 0.1 0.1 1 3
 execute as @s[type=zombie_villager] run particle minecraft:block lime_concrete_powder ~ ~1.2 ~ 0.1 0.2 0.1 1 8
 execute as @s[type=zombie_villager,nbt={IsBaby:1b}] run particle minecraft:block lime_concrete_powder ~ ~0.5 ~ 0.1 0.1 0.1 1 4
-# renamed mobs
-execute if score McVersion GM_Options matches 113..115 run function goremod:blood/entities/zombie_pigman

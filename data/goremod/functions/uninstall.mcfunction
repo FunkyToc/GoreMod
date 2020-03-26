@@ -13,3 +13,7 @@ tag @e remove bloodL
 tag @e remove suffoc
 datapack disable "file/GoreMod"
 datapack disable "file/GoreMod-master"
+datapack disable "file/GoreMod-1.16"
+datapack disable "file/GoreMod-1.15"
+datapack disable "file/GoreMod-1.14"
+datapack disable "file/GoreMod-1.13"
