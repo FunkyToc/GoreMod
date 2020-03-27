@@ -2,7 +2,7 @@
 A Minecraft Datapack to add blood, bleedings, suffocations and broken bones. It's pure cosmetics.
 
 # Requires 
-- Minecraft 1.16
+- Minecraft 1.13 / 1.14 / 1.15 / 1.16
 
 # Use
 1. Download the package and unzip it
