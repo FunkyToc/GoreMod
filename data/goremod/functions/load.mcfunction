@@ -1,10 +1,10 @@
-scoreboard objectives add GM_Options dummy
-scoreboard objectives add GM_BleedCD dummy
-scoreboard objectives add GM_Air air
-scoreboard objectives add GM_Health health
-scoreboard objectives add GM_DmgDealt minecraft.custom:minecraft.damage_dealt
-scoreboard objectives add GM_FallImpact minecraft.custom:minecraft.fall_one_cm
-scoreboard objectives add GM_Swim minecraft.custom:minecraft.swim_one_cm
+scoreboard objectives add GM_Options dummy {"text":"GM_Options","color":"dark_red"}
+scoreboard objectives add GM_BleedCD dummy {"text":"GM_BleedCD","color":"dark_red"}
+scoreboard objectives add GM_Air air {"text":"GM_Air","color":"dark_red"}
+scoreboard objectives add GM_Health health {"text":"GM_Health","color":"dark_red"}
+scoreboard objectives add GM_DmgDealt minecraft.custom:minecraft.damage_dealt {"text":"GM_DmgDealt","color":"dark_red"}
+scoreboard objectives add GM_FallImpact minecraft.custom:minecraft.fall_one_cm {"text":"GM_FallImpact","color":"dark_red"}
+scoreboard objectives add GM_Swim minecraft.custom:minecraft.swim_one_cm {"text":"GM_Swim","color":"dark_red"}
 scoreboard players set @a GM_DmgDealt 0
 scoreboard players set @a GM_FallImpact 0
 scoreboard players set @a GM_Swim 0
