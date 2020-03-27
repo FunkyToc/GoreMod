@@ -9,6 +9,4 @@ execute as @a[scores={GM_FallImpact=1001..}] at @s run tag @s add fallimpactL
 scoreboard players reset @a[scores={GM_FallImpact=1..}] GM_FallImpact
 
 # Fallimpact force
-execute if entity @a[tag=fallimpactS] run function goremod:fallimpact/fallimpactforce
-execute if entity @a[tag=fallimpactM] run function goremod:fallimpact/fallimpactforce
-execute if entity @a[tag=fallimpactL] run function goremod:fallimpact/fallimpactforce
+function goremod:fallimpact/fallimpactforce

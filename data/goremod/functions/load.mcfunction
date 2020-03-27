@@ -14,10 +14,7 @@ scoreboard players set @a GM_BleedCD 0
 scoreboard players set ConstBleedCD GM_BleedCD 5
 
 # mc version
-scoreboard players set McVersion GM_Options 116
+function gm_mcv:get_mcv
 
 # tellraw
-tellraw @a ["",{"text":"GoreMod","bold":true,"color":"gold"}]
-tellraw @a ["",{"text":"Installed with Minecraft "},{"score":{"name":"McVersion","objective":"GM_Options"},"bold":true},{"text":" features"}]
-tellraw @a ["",{"text":"Developped with love by "},{"text":"FunkyToc","color":"dark_purple","bold":true,"clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/"}}]
-tellraw @a ["",{"text":"More infos on "},{"text":"naturize.fr","color":"dark_purple","clickEvent":{"action":"open_url","value":"http://naturize.fr"}}]
+tellraw @a ["",{"text":"GoreMod","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" enabled ! "},{"text":"More infos on "},{"text":"planetcraft.com","color":"dark_purple","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/submissions/data-packs/"}}]
