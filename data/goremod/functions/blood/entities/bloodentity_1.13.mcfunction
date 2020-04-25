@@ -1,6 +1,6 @@
 execute as @s[type=bat] run particle minecraft:block redstone_block ~ ~ ~ 0.1 0.1 0.1 1 5
 execute as @s[type=blaze] run particle minecraft:block coal_block ~ ~1.2 ~ 0.2 0.1 0.2 1 30
-execute as @s[type=cave_spider] run particle minecraft:block lime_concrete_powder ~ ~0.5 ~ 0.2 0.1 0.2 1 10
+execute as @s[type=cave_spider] run particle minecraft:block slime_block ~ ~0.5 ~ 0.2 0.1 0.2 1 10
 execute as @s[type=chicken] run particle minecraft:block redstone_block ~ ~0.3 ~ 0.1 0.1 0.1 1 5
 execute as @s[type=chicken,nbt={Age:0}] run particle minecraft:block redstone_block ~ ~0.5 ~ 0.1 0.1 0.1 1 10
 execute as @s[type=cod] run particle minecraft:block redstone_block ~ ~ ~ 0.1 0.1 0.1 1 5
@@ -11,7 +11,7 @@ execute as @s[type=dolphin] run particle minecraft:block redstone_block ~ ~0.3 ~
 execute as @s[type=donkey] run particle minecraft:block redstone_block ~ ~0.9 ~ 0.1 0.1 0.1 1 10
 execute as @s[type=donkey,nbt={Age:0}] run particle minecraft:block redstone_block ~ ~1.3 ~ 0.2 0.1 0.2 1 20
 execute as @s[type=drowned] run particle minecraft:block nether_wart_block ~ ~1.2 ~ 0.2 0.1 0.2 1 10
-execute as @s[type=drowned] run particle minecraft:block lime_concrete_powder ~ ~1.2 ~ 0.1 0.2 0.1 1 3
+execute as @s[type=drowned] run particle minecraft:block slime_block ~ ~1.2 ~ 0.1 0.2 0.1 1 3
 execute as @s[type=elder_guardian] run particle minecraft:block redstone_block ~ ~1.5 ~ 0.5 0.3 0.5 1 40
 execute as @s[type=elder_guardian] run particle minecraft:block sandstone ~ ~1.5 ~ 0.5 0.3 0.5 1 20
 execute as @s[type=ender_dragon] run particle minecraft:block bubble_coral_block ~ ~2 ~ 0.8 0.5 0.8 1 50
@@ -80,14 +80,14 @@ execute as @s[type=wither_skeleton] run particle minecraft:block gray_concrete ~
 execute as @s[type=wolf] run particle minecraft:block redstone_block ~ ~0.3 ~ 0.1 0.1 0.1 1 5
 execute as @s[type=wolf,nbt={Age:0}] run particle minecraft:block redstone_block ~ ~0.5 ~ 0.1 0.1 0.1 1 5
 execute as @s[type=zombie] run particle minecraft:block nether_wart_block ~ ~1.2 ~ 0.1 0.2 0.1 1 8
-execute as @s[type=zombie] run particle minecraft:block lime_concrete_powder ~ ~1.2 ~ 0.1 0.2 0.1 1 3
+execute as @s[type=zombie] run particle minecraft:block slime_block ~ ~1.2 ~ 0.1 0.2 0.1 1 3
 execute as @s[type=zombie,nbt={IsBaby:1b}] run particle minecraft:block nether_wart_block ~ ~0.5 ~ 0.1 0.1 0.1 1 5
-execute as @s[type=zombie,nbt={IsBaby:1b}] run particle minecraft:block lime_concrete_powder ~ ~0.5 ~ 0.1 0.1 0.1 1 2
+execute as @s[type=zombie,nbt={IsBaby:1b}] run particle minecraft:block slime_block ~ ~0.5 ~ 0.1 0.1 0.1 1 2
 execute as @s[type=zombie_horse,nbt={Age:0}] run particle minecraft:block nether_wart_block ~ ~1.2 ~ 0.2 0.1 0.2 1 10
-execute as @s[type=zombie_horse,nbt={Age:0}] run particle minecraft:block lime_concrete_powder ~ ~1.2 ~ 0.2 0.1 0.2 1 5
+execute as @s[type=zombie_horse,nbt={Age:0}] run particle minecraft:block slime_block ~ ~1.2 ~ 0.2 0.1 0.2 1 5
 execute as @s[type=zombie_horse] run particle minecraft:block nether_wart_block ~ ~0.8 ~ 0.1 0.1 0.1 1 5
-execute as @s[type=zombie_horse] run particle minecraft:block lime_concrete_powder ~ ~0.8 ~ 0.1 0.1 0.1 1 3
-execute as @s[type=zombie_villager] run particle minecraft:block lime_concrete_powder ~ ~1.2 ~ 0.1 0.2 0.1 1 8
-execute as @s[type=zombie_villager,nbt={IsBaby:1b}] run particle minecraft:block lime_concrete_powder ~ ~0.5 ~ 0.1 0.1 0.1 1 4
+execute as @s[type=zombie_horse] run particle minecraft:block slime_block ~ ~0.8 ~ 0.1 0.1 0.1 1 3
+execute as @s[type=zombie_villager] run particle minecraft:block slime_block ~ ~1.2 ~ 0.1 0.2 0.1 1 8
+execute as @s[type=zombie_villager,nbt={IsBaby:1b}] run particle minecraft:block slime_block ~ ~0.5 ~ 0.1 0.1 0.1 1 4
 # renamed mobs 1.16
 execute if score McVersion GM_Options matches 113..115 run function goremod:blood/entities/pigman
