@@ -13,4 +13,4 @@ execute as @s[type=zombified_piglin] run particle minecraft:block bone_block ~ ~
 execute as @s[type=zombified_piglin] run particle minecraft:block slime_block ~ ~1.2 ~ 0.1 0.2 0.1 1 8
 execute as @s[type=zombified_piglin] run particle minecraft:block crimson_nylium ~ ~1.2 ~ 0.1 0.2 0.1 1 15
 # new 1.16 particules
-execute as @s[type=wither_skeleton] run particle minecraft:soul ~ ~1.5 ~ 0.2 0.4 0.2 0.0001 3
+execute as @s[type=wither_skeleton] run particle minecraft:soul ~ ~1.5 ~ 0.2 0.4 0.2 0.01 3
