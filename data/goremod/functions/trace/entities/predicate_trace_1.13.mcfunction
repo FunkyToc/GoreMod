@@ -1,0 +1,1 @@
+execute if predicate goremod:trace_1.13 run function goremod:trace/trace

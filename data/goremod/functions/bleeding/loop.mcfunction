@@ -1,3 +1,6 @@
+# blood spot
+execute as @a[scores={GM_Health=..12,GM_BleedCD=0}] at @s run function goremod:trace/trace
+
 # add bleeding particules on low health
 tag @a[scores={GM_Health=..4,GM_BleedCD=0}] add bloodL
 scoreboard players set @a[scores={GM_Health=..4,GM_BleedCD=0}] GM_BleedCD 60

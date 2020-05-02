@@ -1,8 +1,12 @@
 # Blood force
 function goremod:blood/bloodforce
 
+# trace
+execute as @e[type=!minecraft:player,tag=!blood,nbt={HurtTime:10s}] at @s run function goremod:trace/trace_entity
+execute as @a[tag=!blood,nbt={HurtTime:9s}] at @s run function goremod:trace/trace
+
 # Default
-tag @e[type=!player,tag=!blood,nbt={HurtTime:10s}] add blood
+tag @e[type=!minecraft:player,tag=!blood,nbt={HurtTime:10s}] add blood
 tag @a[tag=!blood,nbt={HurtTime:9s}] add blood
 
 # Blood particule

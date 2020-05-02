@@ -12,6 +12,7 @@ scoreboard players set @a GM_BleedCD 0
 
 # parameters
 scoreboard players set ConstBleedCD GM_BleedCD 5
+scoreboard players set TraceLifeTime GM_BleedCD 3600
 
 # tellraw
 tellraw @a ["",{"text":"GoreMod","bold":true,"color":"gold","hoverEvent":{"action":"show_text","value":"Develop with love by FunkyToc"}},{"text":" enabled ! "},{"text":"More infos on "},{"text":"planetcraft.com","color":"dark_purple","clickEvent":{"action":"open_url","value":"https://www.planetminecraft.com/member/funkytoc/submissions/data-packs/"}}]
