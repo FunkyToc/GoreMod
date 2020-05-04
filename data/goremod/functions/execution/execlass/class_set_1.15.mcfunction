@@ -1,0 +1,1 @@
+execute as @s[type=minecraft:bee] run tag @e[type=area_effect_cloud,tag=gm_tracking_init,limit=1,sort=nearest,distance=..1] add gm_exe_insect

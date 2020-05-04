@@ -1,0 +1,1 @@
+particle minecraft:block redstone_block ~ ~ ~ 0.2 0.2 0.2 1 10

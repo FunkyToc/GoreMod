@@ -1,0 +1,1 @@
+particle minecraft:block bone_block ~ ~ ~ 0.3 0.3 0.3 1 5
