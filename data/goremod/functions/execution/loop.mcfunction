@@ -9,5 +9,4 @@ execute as @e[type=armor_stand,tag=gm_execute] at @s run function goremod:execut
 
 # reset
 execute as @e[type=armor_stand,tag=gm_execute,scores={GM_BleedCD=..0}] run kill @s
-#execute as @e[tag=gm_tracked] at @s anchored eyes positioned ^ ^ ^ run tag @e[type=area_effect_cloud,tag=gm_tracking,limit=1,sort=nearest,distance=..1.2] remove gm_tracking
 scoreboard players remove @e[type=armor_stand,tag=gm_execute] GM_BleedCD 1

@@ -22,7 +22,6 @@ execute as @s[type=minecraft:polar_bear] run function goremod:trace/trace
 execute as @s[type=minecraft:rabbit] run function goremod:trace/trace
 execute as @s[type=minecraft:sheep] run function goremod:trace/trace
 execute as @s[type=minecraft:silverfish] run function goremod:trace/trace
-execute as @s[type=minecraft:spider] run function goremod:trace/trace
 execute as @s[type=minecraft:squid] run function goremod:trace/trace
 execute as @s[type=minecraft:turtle] run function goremod:trace/trace
 execute as @s[type=minecraft:villager] run function goremod:trace/trace
