@@ -26,7 +26,7 @@ execute as @s[type=minecraft:mooshroom] run tag @e[type=area_effect_cloud,tag=gm
 execute as @s[type=minecraft:mule] run tag @e[type=area_effect_cloud,tag=gm_tracking_init,limit=1,sort=nearest,distance=..1] add gm_exe_blood
 execute as @s[type=minecraft:ocelot] run tag @e[type=area_effect_cloud,tag=gm_tracking_init,limit=1,sort=nearest,distance=..1] add gm_exe_blood
 execute as @s[type=minecraft:parrot] run tag @e[type=area_effect_cloud,tag=gm_tracking_init,limit=1,sort=nearest,distance=..1] add gm_exe_blood
-execute as @s[type=minecraft:phantom] run tag @e[type=area_effect_cloud,tag=gm_tracking_init,limit=1,sort=nearest,distance=..1] add gm_exe_blood
+execute as @s[type=minecraft:phantom] run tag @e[type=area_effect_cloud,tag=gm_tracking_init,limit=1,sort=nearest,distance=..1] add gm_exe_insect
 execute as @s[type=minecraft:pig] run tag @e[type=area_effect_cloud,tag=gm_tracking_init,limit=1,sort=nearest,distance=..1] add gm_exe_blood
 execute as @s[type=minecraft:polar_bear] run tag @e[type=area_effect_cloud,tag=gm_tracking_init,limit=1,sort=nearest,distance=..1] add gm_exe_blood
 execute as @s[type=minecraft:pufferfish] run tag @e[type=area_effect_cloud,tag=gm_tracking_init,limit=1,sort=nearest,distance=..1] add gm_exe_blood

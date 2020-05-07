@@ -78,7 +78,7 @@ execute as @s[type=minecraft:slime,nbt={Size:3}] run particle minecraft:block sl
 execute as @s[type=minecraft:slime,nbt={Size:4}] run particle minecraft:block slime_block ~ ~2 ~ 0.7 0.6 0.7 1 30
 execute as @s[type=minecraft:snow_golem] run particle minecraft:block snow_block ~ ~1 ~ 0.1 0.2 0.1 1 20
 execute as @s[type=minecraft:spider] run particle minecraft:item coal ~ ~0.7 ~ 0.3 0.1 0.3 0.01 5
-execute as @s[type=minecraft:spider] run particle minecraft:block redstone_block ~ ~0.6 ~ 0.3 0.1 0.3 1 10
+execute as @s[type=minecraft:spider] run particle minecraft:block slime_block ~ ~0.6 ~ 0.3 0.1 0.3 1 10
 execute as @s[type=minecraft:squid] unless block ~ ~1 ~ #goremod:in_water run particle minecraft:block redstone_block ~ ~0.6 ~ 0.2 0.1 0.2 1 10
 execute as @s[type=minecraft:squid] if block ~ ~1 ~ #goremod:in_water run particle minecraft:dust 0.5 0.05 0.1 2 ~ ~0.5 ~ 0.2 0.2 0.2 1 10
 execute as @s[type=minecraft:squid] if block ~ ~1 ~ #goremod:in_water at @a[distance=..16,nbt=!{Air:300s}] run particle minecraft:squid_ink ~ ~1.7 ~ 0.3 0.3 0.3 0.01 20
@@ -104,8 +104,10 @@ execute as @s[type=minecraft:wolf,nbt=!{Age:0}] run particle minecraft:block red
 execute as @s[type=minecraft:wolf,nbt={Age:0}] run particle minecraft:block redstone_block ~ ~0.7 ~ 0.1 0.1 0.1 1 10
 execute as @s[type=minecraft:zombie,nbt={IsBaby:1b}] run particle minecraft:block nether_wart_block ~ ~0.7 ~ 0.1 0.2 0.1 1 5
 execute as @s[type=minecraft:zombie,nbt={IsBaby:1b}] run particle minecraft:block slime_block ~ ~0.7 ~ 0.1 0.2 0.1 1 3
-execute as @s[type=minecraft:zombie,nbt=!{IsBaby:1b}] run particle minecraft:block nether_wart_block ~ ~1.4 ~ 0.1 0.2 0.1 1 10
-execute as @s[type=minecraft:zombie,nbt=!{IsBaby:1b}] run particle minecraft:block slime_block ~ ~1.4 ~ 0.1 0.2 0.1 1 5
+execute as @s[type=minecraft:zombie,nbt=!{IsBaby:1b}] unless block ~ ~1.8 ~ #goremod:in_water run particle minecraft:block nether_wart_block ~ ~1.4 ~ 0.1 0.2 0.1 1 10
+execute as @s[type=minecraft:zombie,nbt=!{IsBaby:1b}] unless block ~ ~1.8 ~ #goremod:in_water run particle minecraft:block slime_block ~ ~1.4 ~ 0.1 0.2 0.1 1 5
+execute as @s[type=minecraft:zombie,nbt=!{IsBaby:1b}] if block ~ ~1.8 ~ #goremod:in_water run particle minecraft:dust 0.5 0.05 0.1 2 ~ ~1.2 ~ 0.2 0.3 0.2 1 10
+execute as @s[type=minecraft:zombie,nbt=!{IsBaby:1b}] if block ~ ~1.8 ~ #goremod:in_water run particle minecraft:dust 0.2 0.4 0.1 2 ~ ~1.2 ~ 0.2 0.3 0.2 1 5
 execute as @s[type=minecraft:zombie_horse,nbt=!{Age:0}] run particle minecraft:block nether_wart_block ~ ~0.7 ~ 0.1 0.1 0.1 1 5
 execute as @s[type=minecraft:zombie_horse,nbt=!{Age:0}] run particle minecraft:block slime_block ~ ~0.7 ~ 0.1 0.1 0.1 1 5
 execute as @s[type=minecraft:zombie_horse,nbt={Age:0}] run particle minecraft:block nether_wart_block ~ ~1.1 ~ 0.1 0.1 0.1 1 10
