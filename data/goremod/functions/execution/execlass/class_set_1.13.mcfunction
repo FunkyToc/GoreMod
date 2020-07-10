@@ -55,4 +55,4 @@ execute as @s[type=minecraft:zombie] run tag @e[type=area_effect_cloud,tag=gm_tr
 execute as @s[type=minecraft:zombie_horse] run tag @e[type=area_effect_cloud,tag=gm_tracking,limit=1,sort=nearest,distance=..0.1] add gm_exe_zombie
 execute as @s[type=minecraft:zombie_villager] run tag @e[type=area_effect_cloud,tag=gm_tracking,limit=1,sort=nearest,distance=..0.1] add gm_exe_zombie
 # renamed mobs 1.16
-execute if score McVersion fktool matches 113..115 run function goremod:execution/execlass/class_set_pigman
+execute if score McVersion fktool matches ..11500 run function goremod:execution/execlass/class_set_pigman

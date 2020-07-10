@@ -117,4 +117,4 @@ execute as @s[type=minecraft:zombie_villager,nbt={IsBaby:1b}] run particle minec
 execute as @s[type=minecraft:zombie_villager,nbt=!{IsBaby:1b}] run particle minecraft:block slime_block ~ ~1.4 ~ 0.1 0.2 0.1 1 10
 execute as @s[type=minecraft:zombie_villager,nbt=!{IsBaby:1b}] run particle minecraft:block nether_wart_block ~ ~1.4 ~ 0.1 0.2 0.1 1 10
 # renamed mobs 1.16
-execute if score McVersion fktool matches 113..115 run function goremod:blood/entities/pigman
+execute if score McVersion fktool matches 11300..11500 run function goremod:blood/entities/pigman

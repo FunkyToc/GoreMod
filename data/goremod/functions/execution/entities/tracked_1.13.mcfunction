@@ -55,4 +55,4 @@ execute as @s[type=minecraft:zombie] run function goremod:execution/tracking
 execute as @s[type=minecraft:zombie_horse] run function goremod:execution/tracking
 execute as @s[type=minecraft:zombie_villager] run function goremod:execution/tracking
 # renamed mobs 1.16
-execute if score McVersion fktool matches 113..115 run function goremod:execution/entities/tracked_pigman
+execute if score McVersion fktool matches 11300..11500 run function goremod:execution/entities/tracked_pigman
