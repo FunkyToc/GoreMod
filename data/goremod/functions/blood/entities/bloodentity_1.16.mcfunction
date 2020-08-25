@@ -14,3 +14,5 @@ execute as @s[type=minecraft:zombified_piglin] run particle minecraft:block slim
 execute as @s[type=minecraft:zombified_piglin] run particle minecraft:block crimson_nylium ~ ~1.2 ~ 0.1 0.2 0.1 1 15
 # new 1.16 particules
 execute as @s[type=minecraft:wither_skeleton] run particle minecraft:soul ~ ~1.5 ~ 0.2 0.4 0.2 0.01 3
+# 1.16.2
+execute if score McVersion fktool matches 11602.. run function goremod:blood/entities/bloodentity_1.16.2

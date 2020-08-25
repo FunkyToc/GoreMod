@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "GoreMod - by FunkyToc",
-        "pack_format": 5
+        "pack_format": 6,
+        "description": "GoreMod - by FunkyToc"
     }
 }

@@ -10,10 +10,7 @@ tag @e[type=!minecraft:player,tag=!blood,nbt={HurtTime:10s}] add blood
 tag @a[tag=!blood,nbt={HurtTime:9s}] add blood
 
 # Blood particule
-execute if score McVersion fktool matches 11300.. as @e[type=!player,type=!item,tag=blood] at @s run function goremod:blood/entities/bloodentity_1.13
-execute if score McVersion fktool matches 11400.. as @e[type=!player,type=!item,tag=blood] at @s run function goremod:blood/entities/bloodentity_1.14
-execute if score McVersion fktool matches 11500.. as @e[type=!player,type=!item,tag=blood] at @s run function goremod:blood/entities/bloodentity_1.15
-execute if score McVersion fktool matches 11600.. as @e[type=!player,type=!item,tag=blood] at @s run function goremod:blood/entities/bloodentity_1.16
+execute as @e[type=!player,type=!item,tag=blood] at @s run function goremod:blood/entities/bloodentity
 execute as @a[tag=blood] at @s unless block ~ ~1.3 ~ minecraft:water run function goremod:blood/bloodplayer
 execute as @a[tag=blood] at @s if block ~ ~1.3 ~ minecraft:water run function goremod:blood/bloodwater
 tag @e[tag=blood] remove blood
