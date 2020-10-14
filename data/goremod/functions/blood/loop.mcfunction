@@ -6,7 +6,7 @@ execute as @e[type=!minecraft:player,tag=!blood,nbt={HurtTime:10s}] at @s run fu
 execute as @a[tag=!blood,nbt={HurtTime:9s}] at @s run function goremod:trace/trace
 
 # Default
-tag @e[type=!minecraft:player,tag=!blood,nbt={HurtTime:10s}] add blood
+tag @e[type=!minecraft:player,tag=!blood,nbt={HurtTime:10s},tag=!ES_entity] add blood
 tag @a[tag=!blood,nbt={HurtTime:9s}] add blood
 
 # Blood particule
@@ -16,7 +16,7 @@ execute as @a[tag=blood] at @s if block ~ ~1.3 ~ minecraft:water run function go
 tag @e[tag=blood] remove blood
 
 # Players Damage
-execute as @a[scores={GM_DmgDealt=50..100}] at @s run tag @e[nbt={HurtTime:10s},distance=..8] add bloodS
-execute as @a[scores={GM_DmgDealt=101..150}] at @s run tag @e[nbt={HurtTime:10s},distance=..8] add bloodM
-execute as @a[scores={GM_DmgDealt=151..}] at @s run tag @e[nbt={HurtTime:10s},distance=..8] add bloodL
+execute as @a[scores={GM_DmgDealt=50..100}] at @s run tag @e[nbt={HurtTime:10s},distance=..8,tag=!ES_entity] add bloodS
+execute as @a[scores={GM_DmgDealt=101..150}] at @s run tag @e[nbt={HurtTime:10s},distance=..8,tag=!ES_entity] add bloodM
+execute as @a[scores={GM_DmgDealt=151..}] at @s run tag @e[nbt={HurtTime:10s},distance=..8,tag=!ES_entity] add bloodL
 scoreboard players reset @a[scores={GM_DmgDealt=1..}] GM_DmgDealt
