@@ -1,6 +1,6 @@
 {
     "values": [
         "fktool:load",
-        "goremod:load"
+        "gm:load"
     ]
 }

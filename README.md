@@ -9,7 +9,7 @@ A Minecraft Datapack to add blood, bleedings, suffocations and broken bones. It'
 2. Copy/paste the entire "GoreMod/" folder in your "saves/your-map/datapacks/" folder.
 3. Launch the game/server and play your map.
 
-- Disable the datapack : /function goremod:uninstall
+- Disable the datapack : /function gm:uninstall
 - Re-enable the datapack : /datapack enable "file/GoreMod"
 
 # Author

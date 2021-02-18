@@ -1,0 +1,1 @@
+execute as @e[predicate=gm:entity/aec_trace] at @s run function gm:trace/lifetime
