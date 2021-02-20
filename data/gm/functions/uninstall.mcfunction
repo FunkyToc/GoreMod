@@ -2,7 +2,6 @@ scoreboard objectives remove GM_BleedCD
 scoreboard objectives remove GM_Options
 scoreboard objectives remove GM_DmgDealt
 scoreboard objectives remove GM_FallImpact
-scoreboard objectives remove GM_Swim
 scoreboard objectives remove GM_Air
 scoreboard objectives remove GM_Health
 

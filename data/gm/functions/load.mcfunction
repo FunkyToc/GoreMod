@@ -4,11 +4,9 @@ scoreboard objectives add GM_Air air {"text":"GM_Air","color":"dark_red"}
 scoreboard objectives add GM_Health health {"text":"GM_Health","color":"dark_red"}
 scoreboard objectives add GM_DmgDealt minecraft.custom:minecraft.damage_dealt {"text":"GM_DmgDealt","color":"dark_red"}
 scoreboard objectives add GM_FallImpact minecraft.custom:minecraft.fall_one_cm {"text":"GM_FallImpact","color":"dark_red"}
-scoreboard objectives add GM_Swim minecraft.custom:minecraft.swim_one_cm {"text":"GM_Swim","color":"dark_red"}
 
 scoreboard players set @a GM_DmgDealt 0
 scoreboard players set @a GM_FallImpact 0
-scoreboard players set @a GM_Swim 0
 scoreboard players set @a GM_BleedCD 0
 
 scoreboard objectives add GM_x dummy {"text":"GM_x","color":"dark_red"}

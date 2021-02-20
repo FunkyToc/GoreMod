@@ -1,2 +1,2 @@
-execute if entity @s[scores={GM_Swim=..0}] run particle minecraft:dust 0.5 0.05 0.1 0.8 ~ ~1 ~ 0.1 0.1 0.1 1 1
-execute if entity @s[scores={GM_Swim=1..}] run particle minecraft:dust 0.5 0.05 0.1 0.8 ~ ~0.3 ~ 0.1 0.1 0.1 1 1
+execute if entity @s[predicate=!fktool:entity/swimming] run particle minecraft:dust 0.5 0.05 0.1 0.8 ~ ~1 ~ 0.1 0.1 0.1 1 1
+execute if entity @s[predicate=fktool:entity/swimming] run particle minecraft:dust 0.5 0.05 0.1 0.8 ~ ~0.3 ~ 0.1 0.1 0.1 1 1

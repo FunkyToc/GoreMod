@@ -6,4 +6,4 @@ execute if score McVersion fktool matches 11602 run tag @e[predicate=gm:blood/hu
 
 schedule function gm:blood/hurt_entity_1 1t
 
-advancement revoke @s only gm:blood/hurt_entity
+advancement revoke @s only gm:hurt_entity
