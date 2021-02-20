@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "dmg": {
+      "trigger": "minecraft:player_hurt_entity"
+    }
+  },
+  "rewards": {
+    "function": "gm:blood/hurt_entity"
+  }
+}
