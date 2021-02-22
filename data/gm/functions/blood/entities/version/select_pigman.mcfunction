@@ -1,0 +1,1 @@
+execute if entity @s[type=minecraft:zombie_pigman] run function gm:blood/entities/particule/zombie_pigman

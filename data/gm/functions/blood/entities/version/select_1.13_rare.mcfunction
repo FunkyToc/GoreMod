@@ -1,0 +1,17 @@
+execute if entity @s[type=minecraft:elder_guardian] run function gm:blood/entities/particule/elder_guardian
+execute if entity @s[type=minecraft:ender_dragon] run function gm:blood/entities/particule/ender_dragon
+execute if entity @s[type=minecraft:endermite] run function gm:blood/entities/particule/endermite
+execute if entity @s[type=minecraft:evoker] run function gm:blood/entities/particule/evoker
+execute if entity @s[type=minecraft:giant] run function gm:blood/entities/particule/giant
+execute if entity @s[type=minecraft:illusioner] run function gm:blood/entities/particule/illusioner
+execute if entity @s[type=minecraft:iron_golem] run function gm:blood/entities/particule/iron_golem
+execute if entity @s[type=minecraft:mooshroom] run function gm:blood/entities/particule/mooshroom
+execute if entity @s[type=minecraft:parrot] run function gm:blood/entities/particule/parrot
+execute if entity @s[type=minecraft:silverfish] run function gm:blood/entities/particule/silverfish
+execute if entity @s[type=minecraft:skeleton_horse] run function gm:blood/entities/particule/skeleton_horse
+execute if entity @s[type=minecraft:vex] run function gm:blood/entities/particule/vex
+execute if entity @s[type=minecraft:villager] run function gm:blood/entities/particule/villager
+execute if entity @s[type=minecraft:vindicator] run function gm:blood/entities/particule/vindicator
+execute if entity @s[type=minecraft:witch] run function gm:blood/entities/particule/witch
+execute if entity @s[type=minecraft:wither] run function gm:blood/entities/particule/wither
+execute if entity @s[type=minecraft:zombie_horse] run function gm:blood/entities/particule/zombie_horse
