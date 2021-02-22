@@ -11,3 +11,6 @@ scoreboard players set @s[scores={GM_Health=..12,GM_BleedCD=..0}] GM_BleedCD 200
 
 # bleed constant
 execute if entity @s[scores={GM_Health=..6}] run function gm:bleeding/bleed_constant
+
+# start loop
+function gm:blood/loop

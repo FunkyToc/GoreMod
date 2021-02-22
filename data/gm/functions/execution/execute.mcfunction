@@ -4,5 +4,8 @@ function gm:execution/class_timer
 execute as @e[predicate=gm:execution/as_execute,limit=1,sort=nearest] at @s run function gm:execution/execute_motion
 kill @s
 
+# reset player damage
+scoreboard players reset @p GM_DmgDealt
+
 # start execution loop
 function gm:execution/execlass/loop
