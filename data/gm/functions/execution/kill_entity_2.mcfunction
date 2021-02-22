@@ -1,0 +1,1 @@
+execute as @e[predicate=gm:execution/aec_tracking,nbt={Age:1}] at @s run function gm:execution/execute
