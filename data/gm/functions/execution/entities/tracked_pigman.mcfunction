@@ -1,1 +1,0 @@
-execute as @s[type=minecraft:zombie_pigman] run function gm:execution/tracking

@@ -2,38 +2,56 @@
   "condition": "minecraft:alternative",
   "terms": [
     {
+      "condition": "minecraft:reference",
+      "name": "gm:execution/1.13"
+    },
+    {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:hoglin"
+        "type": "minecraft:cat"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:piglin"
+        "type": "minecraft:fox"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:strider"
+        "type": "minecraft:panda"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:zoglin"
+        "type": "minecraft:pillager"
       }
     },
     {
       "condition": "minecraft:entity_properties",
       "entity": "this",
       "predicate": {
-        "type": "minecraft:zombified_piglin"
+        "type": "minecraft:ravager"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:trader_llama"
+      }
+    },
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "type": "minecraft:wandering_trader"
       }
     }
   ]

@@ -1,2 +1,0 @@
-execute if score McVersion fktool matches 11300.. as @e[tag=!ES_entity,distance=..16,limit=5,sort=nearest,type=!minecraft:area_effect_cloud,type=!minecraft:player,type=!minecraft:item,type=!minecraft:arrow] at @s run function gm:execution/entities/tracked_1.13
-execute if score McVersion fktool matches 11400.. as @e[distance=..16,limit=5,sort=nearest,type=!minecraft:area_effect_cloud,type=!minecraft:player,type=!minecraft:item,type=!minecraft:arrow] at @s run function gm:execution/entities/tracked_1.14
