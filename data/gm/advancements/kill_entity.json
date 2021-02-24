@@ -2,11 +2,7 @@
   "criteria": {
     "mob_kill": {
       "trigger": "minecraft:player_killed_entity",
-      "conditions": {
-        "entity": {
-          "nbt": "{Tags:[\"gm_tracked\"]}"
-        }
-      }
+      "conditions": {}
     }
   },
   "rewards": {

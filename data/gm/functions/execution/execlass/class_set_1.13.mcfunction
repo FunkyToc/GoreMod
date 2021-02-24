@@ -54,5 +54,6 @@ execute as @s[type=minecraft:wolf] run tag @e[predicate=gm:execution/aec_trackin
 execute as @s[type=minecraft:zombie] run tag @e[predicate=gm:execution/aec_tracking,limit=1,sort=nearest,distance=...1] add gm_exe_zombie
 execute as @s[type=minecraft:zombie_horse] run tag @e[predicate=gm:execution/aec_tracking,limit=1,sort=nearest,distance=...1] add gm_exe_zombie
 execute as @s[type=minecraft:zombie_villager] run tag @e[predicate=gm:execution/aec_tracking,limit=1,sort=nearest,distance=...1] add gm_exe_zombie
+
 # renamed mobs 1.16
-execute if score McVersion fktool matches ..11500 run function gm:execution/execlass/class_set_pigman
+execute if score McVersion fktool matches ..11599 run function gm:execution/execlass/class_set_pigman

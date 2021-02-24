@@ -1,1 +1,2 @@
-execute as @e[predicate=gm:execution/aec_tracking,nbt={Age:1}] at @s run function gm:execution/execute
+execute at @a[tag=gm_dmg_dealer] as @e[predicate=gm:execution/aec_tracking,limit=1,distance=..10,nbt={Age:2}] at @s run function gm:execution/execute/execute
+tag @a[tag=gm_dmg_dealer] remove gm_dmg_dealer

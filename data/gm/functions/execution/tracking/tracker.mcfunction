@@ -1,0 +1,2 @@
+execute as @e[predicate=gm:execution/aec_tracking,limit=1,sort=nearest,distance=...5] run data modify entity @s Age set value 0
+execute unless entity @e[predicate=gm:execution/aec_tracking,limit=1,sort=nearest,distance=...5] run function gm:execution/tracking/tracker_summon

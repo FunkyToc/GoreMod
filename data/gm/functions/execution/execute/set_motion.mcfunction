@@ -1,4 +1,4 @@
-execute as @s at @s run tp @s ~ ~ ~ facing entity @p[distance=..32]
+execute as @s at @s run tp @s ~ ~ ~ facing entity @p[tag=gm_dmg_dealer,distance=..10]
 
 execute store result score @s GM_x run data get entity @s Pos[0] 100
 execute store result score @s GM_y run data get entity @s Pos[1] 100
@@ -15,5 +15,6 @@ scoreboard players operation @s GM_dy -= @s GM_y
 scoreboard players operation @s GM_dz -= @s GM_z
 
 execute store result entity @s Motion[0] double 0.04 run scoreboard players get @s GM_dx
-execute if score @s GM_dy matches ..0 store result entity @s Motion[1] double 0.02 run scoreboard players get @s GM_dy
+execute if score @s GM_dy matches ..-1 store result entity @s Motion[1] double 0.01 run scoreboard players get @s GM_dy
+execute if score @s GM_dy matches 0.. store result entity @s Motion[1] double 0.06 run scoreboard players get @s GM_dy
 execute store result entity @s Motion[2] double 0.04 run scoreboard players get @s GM_dz

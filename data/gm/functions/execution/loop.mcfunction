@@ -1,2 +1,1 @@
-execute at @a as @e[predicate=gm:execution/entity_tracked,distance=..10] at @s anchored eyes positioned ^ ^ ^ run function gm:execution/clean_tracking
-execute as @a at @s run function gm:execution/track_entities
+execute as @a at @s run function gm:execution/tracking/track

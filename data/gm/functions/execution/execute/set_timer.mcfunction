@@ -1,4 +1,4 @@
-# normal
+# air
 execute as @s[tag=gm_exe_blood] unless block ~ ~ ~ #gm:in_water run scoreboard players set @e[predicate=gm:execution/as_execute,limit=1,sort=nearest] GM_BleedCD 14
 execute as @s[tag=gm_exe_bone] unless block ~ ~ ~ #gm:in_water run scoreboard players set @e[predicate=gm:execution/as_execute,limit=1,sort=nearest] GM_BleedCD 5
 execute as @s[tag=gm_exe_darkbone] unless block ~ ~ ~ #gm:in_water run scoreboard players set @e[predicate=gm:execution/as_execute,limit=1,sort=nearest] GM_BleedCD 5
