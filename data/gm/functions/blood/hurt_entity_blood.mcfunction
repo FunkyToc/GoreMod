@@ -3,9 +3,9 @@ tag @s add blood
 function gm:trace/trace_entity
 
 # blood level
-execute if entity @p[predicate=gm:blood/dmg_s,distance=..16] run tag @s add bloodS
-execute if entity @p[predicate=gm:blood/dmg_m,distance=..16] run tag @s add bloodM
-execute if entity @p[predicate=gm:blood/dmg_l,distance=..16] run tag @s add bloodL
+execute if entity @p[predicate=gm:blood/dmg_s,tag=gm_dmg_dealer,distance=..16] run tag @s add bloodS
+execute if entity @p[predicate=gm:blood/dmg_m,tag=gm_dmg_dealer,distance=..16] run tag @s add bloodM
+execute if entity @p[predicate=gm:blood/dmg_l,tag=gm_dmg_dealer,distance=..16] run tag @s add bloodL
 
 # reset
 scoreboard players reset @p[tag=gm_dmg_dealer] GM_DmgDealt
