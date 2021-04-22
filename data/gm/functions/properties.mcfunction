@@ -32,6 +32,11 @@ scoreboard players set Execution GM_Options 1
 # 1 : Enable traces
 scoreboard players set Trace GM_Options 1
 
+# Traces duration (redstone on the ground)
+# Default : 3600
+# Range : 20 - 72000
+scoreboard players set TraceLifeTime GM_Options 3600
+
 # Suffocation particules (on water damage)
 # 0 : Disable suffocation
 # 1 : Enable suffocation
