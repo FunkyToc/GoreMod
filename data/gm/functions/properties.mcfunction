@@ -17,6 +17,11 @@
 # 1 : Enable blood
 scoreboard players set Blood GM_Options 1
 
+# Ultra blood style
+# 0 : Disable ultra blood
+# 1 : Enable ultra blood
+scoreboard players set UltraBlood GM_Options 0
+
 # Bleed particules (on player low health)   /!\ requires Blood option /!\
 # 0 : Disable blood
 # 1 : Enable blood

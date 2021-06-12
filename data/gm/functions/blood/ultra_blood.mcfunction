@@ -1,0 +1,1 @@
+execute as @e[type=!minecraft:player,nbt={HurtTime:10s}] at @s if entity @p[distance=..48] run function gm:blood/hurt_entity_blood
