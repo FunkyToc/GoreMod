@@ -17,7 +17,7 @@
 # 1 : Enable blood
 scoreboard players set Blood GM_Options 1
 
-# Bleed particules (on player low health)   /!\ require Blood option /!\
+# Bleed particules (on player low health)   /!\ requires Blood option /!\
 # 0 : Disable blood
 # 1 : Enable blood
 scoreboard players set Bleed GM_Options 1
