@@ -1,0 +1,1 @@
+particle minecraft:spore_blossom_air ~ ~1 ~ .2 .3 .2 1 5
