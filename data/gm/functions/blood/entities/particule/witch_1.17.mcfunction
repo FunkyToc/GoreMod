@@ -1,1 +1,1 @@
-particle minecraft:spore_blossom_air ~ ~1 ~ .2 .3 .2 1 5
+particle minecraft:spore_blossom_air ~ ~1 ~ .2 .3 .2 1 5 normal @a[predicate=gm:see_blood]

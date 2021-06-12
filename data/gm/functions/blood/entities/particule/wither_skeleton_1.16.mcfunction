@@ -1,1 +1,1 @@
-particle minecraft:soul ~ ~1.5 ~ 0.2 0.4 0.2 0.01 3
+particle minecraft:soul ~ ~1.5 ~ 0.2 0.4 0.2 0.01 3 normal @a[predicate=gm:see_blood]

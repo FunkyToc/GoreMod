@@ -17,7 +17,7 @@
 # 1 : Enable blood
 scoreboard players set Blood GM_Options 1
 
-# Ultra blood style
+# Ultra blood style   /!\ hight CPU usage /!\
 # 0 : Disable ultra blood
 # 1 : Enable ultra blood
 scoreboard players set UltraBlood GM_Options 0

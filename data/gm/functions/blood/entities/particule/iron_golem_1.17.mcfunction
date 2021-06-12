@@ -1,1 +1,1 @@
-particle minecraft:electric_spark ~ ~1.7 ~ .4 .4 .4 .1 10
+particle minecraft:electric_spark ~ ~1.7 ~ .4 .4 .4 .1 10 normal @a[predicate=gm:see_blood]

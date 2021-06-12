@@ -1,1 +1,1 @@
-particle minecraft:block bubble_coral_block ~ ~ ~ 0.2 0.2 0.2 1 10
+particle minecraft:block bubble_coral_block ~ ~ ~ 0.2 0.2 0.2 1 10 normal @a[predicate=gm:see_blood]

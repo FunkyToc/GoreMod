@@ -1,1 +1,1 @@
-particle minecraft:dust 0.5 0 0.7 2 ~ ~ ~ 0.4 0.4 0.4 1 5
+particle minecraft:dust 0.5 0 0.7 2 ~ ~ ~ 0.4 0.4 0.4 1 5 normal @a[predicate=gm:see_blood]

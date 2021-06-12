@@ -1,1 +1,1 @@
-particle minecraft:block slime_block ~ ~ ~ 0.2 0.2 0.2 1 5
+particle minecraft:block slime_block ~ ~ ~ 0.2 0.2 0.2 1 5 normal @a[predicate=gm:see_blood]
