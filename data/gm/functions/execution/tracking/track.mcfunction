@@ -1,4 +1,4 @@
-execute if score McVersion fktool matches ..11500 as @e[predicate=gm:execution/1.15,distance=..8,limit=4,sort=nearest] at @s anchored eyes positioned ^ ^ ^ run function gm:execution/tracking/tracker
-execute if score McVersion fktool matches 11600 as @e[predicate=gm:execution/1.16,distance=..8,limit=6,sort=nearest] at @s anchored eyes positioned ^ ^ ^ run function gm:execution/tracking/tracker
-execute if score McVersion fktool matches 11602 as @e[predicate=gm:execution/1.16.2,distance=..8,limit=6,sort=nearest] at @s anchored eyes positioned ^ ^ ^ run function gm:execution/tracking/tracker
 execute if score McVersion fktool matches 11700.. as @e[predicate=gm:execution/1.17,distance=..8,limit=6,sort=nearest] at @s anchored eyes positioned ^ ^ ^ run function gm:execution/tracking/tracker
+execute if score McVersion fktool matches 11602 as @e[predicate=gm:execution/1.16.2,distance=..8,limit=6,sort=nearest] at @s anchored eyes positioned ^ ^ ^ run function gm:execution/tracking/tracker
+execute if score McVersion fktool matches 11600 as @e[predicate=gm:execution/1.16,distance=..8,limit=6,sort=nearest] at @s anchored eyes positioned ^ ^ ^ run function gm:execution/tracking/tracker
+execute if score McVersion fktool matches ..11500 as @e[predicate=gm:execution/1.15,distance=..8,limit=4,sort=nearest] at @s anchored eyes positioned ^ ^ ^ run function gm:execution/tracking/tracker
