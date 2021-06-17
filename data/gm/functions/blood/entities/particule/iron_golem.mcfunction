@@ -6,4 +6,4 @@ playsound minecraft:block.anvil.place hostile @a[distance=..16] ~ ~ ~ 0.3 1 0.1
 
 function gm:blood/entities/particule/iron_golem_1.17
 
-tag @s add gm_found
+tag @s add gm.found

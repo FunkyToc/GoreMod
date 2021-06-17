@@ -8,4 +8,4 @@ playsound minecraft:entity.slime.squish hostile @a[distance=..8] ~ ~ ~ .5 1 .2
 
 function gm:blood/entities/particule/slime_1.17
 
-tag @s add gm_found
+tag @s add gm.found

@@ -4,4 +4,4 @@ execute if entity @s[nbt={Size:2}] run particle minecraft:block magma_block ~ ~1
 execute if entity @s[nbt={Size:3}] run particle minecraft:block magma_block ~ ~1.6 ~ 0.55 0.5 0.55 1 20 normal @a[predicate=gm:see_blood]
 execute if entity @s[nbt={Size:4}] run particle minecraft:block magma_block ~ ~2 ~ 0.7 0.6 0.7 1 30 normal @a[predicate=gm:see_blood]
 
-tag @s add gm_found
+tag @s add gm.found

@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_scores",
   "entity": "this",
   "scores": {
-    "GM_DmgDealt": {
+    "GM.DmgDealt": {
       "min": 101,
       "max": 150
     }

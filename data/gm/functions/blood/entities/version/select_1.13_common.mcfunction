@@ -22,4 +22,4 @@ execute if entity @s[type=minecraft:turtle] run function gm:blood/entities/parti
 execute if entity @s[type=minecraft:wolf] run function gm:blood/entities/particule/wolf
 execute if entity @s[type=minecraft:zombie] run function gm:blood/entities/particule/zombie
 
-execute if entity @s[tag=!gm_found] run function gm:blood/entities/version/select_1.13_uncommon
+execute if entity @s[tag=!gm.found] run function gm:blood/entities/version/select_1.13_uncommon

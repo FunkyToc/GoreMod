@@ -1,8 +1,8 @@
-execute as @a[tag=gm_fall,predicate=gm:fallimpact/fall_s] at @s run tag @s add fallimpactS
-execute as @a[tag=gm_fall,predicate=gm:fallimpact/fall_m] at @s run tag @s add fallimpactM
-execute as @a[tag=gm_fall,predicate=gm:fallimpact/fall_l] at @s run tag @s add fallimpactL
-scoreboard players reset @a[tag=gm_fall,scores={GM_FallImpact=1..}] GM_FallImpact
-tag @a[tag=gm_fall] remove gm_fall
+execute as @a[tag=gm.fall,predicate=gm:fallimpact/fall_s] at @s run tag @s add fallimpactS
+execute as @a[tag=gm.fall,predicate=gm:fallimpact/fall_m] at @s run tag @s add fallimpactM
+execute as @a[tag=gm.fall,predicate=gm:fallimpact/fall_l] at @s run tag @s add fallimpactL
+scoreboard players reset @a[tag=gm.fall,scores={GM.FallImpact=1..}] GM.FallImpact
+tag @a[tag=gm.fall] remove gm.fall
 
 function gm:fallimpact/impact_force
 

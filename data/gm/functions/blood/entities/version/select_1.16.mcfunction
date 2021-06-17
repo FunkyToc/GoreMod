@@ -4,4 +4,4 @@ execute if entity @s[type=minecraft:piglin] run function gm:blood/entities/parti
 execute if entity @s[type=minecraft:strider] run function gm:blood/entities/particule/strider
 execute if entity @s[type=minecraft:zombified_piglin] run function gm:blood/entities/particule/zombified_piglin
 
-execute if entity @s[tag=!gm_found] run function gm:blood/entities/version/select_1.15
+execute if entity @s[tag=!gm.found] run function gm:blood/entities/version/select_1.15

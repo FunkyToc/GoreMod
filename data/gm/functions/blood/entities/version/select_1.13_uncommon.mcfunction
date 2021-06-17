@@ -18,4 +18,4 @@ execute if entity @s[type=minecraft:zombie_villager] run function gm:blood/entit
 
 execute if score McVersion fktool matches 11300..11500 run function gm:blood/entities/version/select_pigman
 
-execute if entity @s[tag=!gm_found] run function gm:blood/entities/version/select_1.13_rare
+execute if entity @s[tag=!gm.found] run function gm:blood/entities/version/select_1.13_rare

@@ -2,7 +2,7 @@
   "condition": "minecraft:entity_scores",
   "entity": "this",
   "scores": {
-    "GM_FallImpact": {
+    "GM.FallImpact": {
       "min": 501,
       "max": 1000
     }

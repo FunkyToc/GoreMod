@@ -8,7 +8,7 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "GM_Air": {
+              "GM.Air": {
                 "min": -99,
                 "max": 0
               }

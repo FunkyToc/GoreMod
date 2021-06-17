@@ -6,4 +6,4 @@ execute if entity @s[type=minecraft:ravager] run function gm:blood/entities/part
 execute if entity @s[type=minecraft:trader_llama] run function gm:blood/entities/particule/trader_llama
 execute if entity @s[type=minecraft:wandering_trader] run function gm:blood/entities/particule/wandering_trader
 
-execute if entity @s[tag=!gm_found] run function gm:blood/entities/version/select_1.13_common
+execute if entity @s[tag=!gm.found] run function gm:blood/entities/version/select_1.13_common

@@ -17,4 +17,4 @@ execute if entity @s[nbt={Variant:2}] if block ~ ~.2 ~ #gm:in_water run particle
 execute if entity @s[nbt={Variant:3}] if block ~ ~.2 ~ #gm:in_water run particle minecraft:item minecraft:warped_roots ~ ~.2 ~ .1 .1 .1 .03 3 normal @a[predicate=gm:see_blood]
 execute if entity @s[nbt={Variant:4}] if block ~ ~.2 ~ #gm:in_water run particle minecraft:item minecraft:tube_coral ~ ~.2 ~ .1 .1 .1 .03 3 normal @a[predicate=gm:see_blood]
 
-tag @s add gm_found
+tag @s add gm.found
