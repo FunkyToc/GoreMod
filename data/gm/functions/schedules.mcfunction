@@ -1,1 +1,1 @@
-execute if score Bleed GM.Options matches 1 run function gm:bleeding/loop
+execute if score Bleed gm.options matches 1 run function gm:bleeding/loop

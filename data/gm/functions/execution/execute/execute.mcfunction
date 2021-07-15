@@ -5,7 +5,7 @@ execute as @e[predicate=gm:execution/as_execute,limit=1,sort=nearest] at @s run 
 kill @s
 
 # reset player damage
-scoreboard players reset @p GM.DmgDealt
+scoreboard players reset @p gm.DmgDealt
 
 # start execution loop
 function gm:execution/execlass/loop

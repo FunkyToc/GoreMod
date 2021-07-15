@@ -8,11 +8,11 @@ execute if entity @p[predicate=gm:blood/dmg_m,tag=gm.dmg_dealer,distance=..16] r
 execute if entity @p[predicate=gm:blood/dmg_l,tag=gm.dmg_dealer,distance=..16] run tag @s add bloodL
 
 # ultra blood
-execute if score UltraBlood GM.Options matches 1 run tag @s add bloodXXL
-execute if score UltraBlood GM.Options matches 1 if entity @p[predicate=gm:blood/dmg_m,tag=gm.dmg_dealer,distance=..8] as @e[predicate=gm:execution/aec_tracking,limit=1,distance=..3] at @s run function gm:execution/execute/execute
+execute if score UltraBlood gm.options matches 1 run tag @s add bloodXXL
+execute if score UltraBlood gm.options matches 1 if entity @p[predicate=gm:blood/dmg_m,tag=gm.dmg_dealer,distance=..8] as @e[predicate=gm:execution/aec_tracking,limit=1,distance=..3] at @s run function gm:execution/execute/execute
 
 # reset
-scoreboard players reset @p[tag=gm.dmg_dealer] GM.DmgDealt
+scoreboard players reset @p[tag=gm.dmg_dealer] gm.DmgDealt
 tag @p[tag=gm.dmg_dealer] remove gm.dmg_dealer
 tag @s remove gm.dmg_receiver
 
