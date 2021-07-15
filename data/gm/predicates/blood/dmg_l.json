@@ -4,7 +4,7 @@
   "scores": {
     "gm.DmgDealt": {
       "min": 151,
-      "max": 999
+      "max": 9999
     }
   }
 }

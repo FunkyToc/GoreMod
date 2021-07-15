@@ -1,4 +1,4 @@
-execute as @s at @s run tp @s ~ ~ ~ facing entity @p[tag=gm.dmg_dealer,distance=..10]
+execute as @s at @s run tp @s ~ ~ ~ facing entity @p[predicate=gm:blood/dmg_dealer,distance=..10]
 
 execute store result score @s gm.x run data get entity @s Pos[0] 100
 execute store result score @s gm.y run data get entity @s Pos[1] 100

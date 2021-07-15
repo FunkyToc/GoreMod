@@ -1,1 +1,1 @@
-execute as @e[tag=gm.dmg_receiver] at @s run function gm:blood/hurt_entity_blood
+execute as @e[predicate=gm:blood/dmg_receiver] at @s run function gm:blood/hurt_entity_blood
