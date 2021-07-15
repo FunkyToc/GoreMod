@@ -1,5 +1,5 @@
-execute as @a[tag=fallimpact] at @s run function gm:fallimpact/particule
-tag @a[tag=fallimpact] remove fallimpact
+execute as @a[tag=gm.fallimpact] at @s run function gm:fallimpact/particule
+tag @a[tag=gm.fallimpact] remove gm.fallimpact
 function gm:fallimpact/impact_force
 
-execute if entity @a[tag=fallimpact] run schedule function gm:fallimpact/chain 1t
+execute if entity @p[tag=gm.fallimpact] run schedule function gm:fallimpact/chain 1t

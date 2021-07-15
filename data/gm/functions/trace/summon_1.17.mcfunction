@@ -1,1 +1,1 @@
-summon minecraft:marker ~ ~ ~ {Tags:["gm.trace","gm.trace_init"]}
+summon minecraft:marker ~ ~ ~ {Tags:["gm.trace","gm.trace.init"]}

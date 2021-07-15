@@ -1,1 +1,1 @@
-summon minecraft:area_effect_cloud ~ ~ ~ {Duration:72001,Tags:["gm.trace","gm.trace_init"]}
+summon minecraft:area_effect_cloud ~ ~ ~ {Duration:72001,Tags:["gm.trace","gm.trace.init"]}
