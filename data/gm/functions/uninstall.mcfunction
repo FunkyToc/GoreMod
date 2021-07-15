@@ -1,5 +1,5 @@
 # destroy loaded traces
-execute as @e[predicate=gm:entity/aec_trace] at @s run function gm:trace/cleanup
+execute as @e[predicate=gm:entity/trace] at @s run function gm:trace/cleanup
 
 # migration 1.17 -> 1.17 options
 scoreboard objectives remove GM.BleedCD

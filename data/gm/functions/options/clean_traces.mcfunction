@@ -1,1 +1,1 @@
-execute as @e[predicate=gm:entity/aec_trace] at @s run function gm:trace/cleanup
+execute as @e[predicate=gm:entity/trace] at @s run function gm:trace/cleanup
