@@ -3,8 +3,8 @@
   "entity": "this",
   "scores": {
     "gm.DmgDealt": {
-      "min": 101,
-      "max": 150
+      "min": 80,
+      "max": 119
     }
   }
 }
