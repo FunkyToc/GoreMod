@@ -1,6 +1,6 @@
 execute if score UltraBlood gm.options matches 1 run tag @s[tag=!blood] add bloodXXL
-tag @s[tag=!blood] add make_trace
-tag @s[tag=!blood] add blood
+execute if score Trace gm.options matches 1 run tag @s[tag=!blood] add make_trace
+execute if score Blood gm.options matches 1 run tag @s[tag=!blood] add blood
 advancement revoke @s only gm:hurt_player
 
 # start loop
