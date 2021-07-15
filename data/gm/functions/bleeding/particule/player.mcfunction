@@ -1,1 +1,1 @@
-execute if entity @s[nbt={OnGround:1b}] run particle minecraft:block redstone_block ~ ~ ~ 0 0 0 1 1
+execute if entity @s[nbt={OnGround:1b}] run particle minecraft:block redstone_block ~ ~ ~ 0 0 0 1 1 normal @a[predicate=gm:see_blood]
