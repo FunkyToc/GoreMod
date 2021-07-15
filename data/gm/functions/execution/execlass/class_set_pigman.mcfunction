@@ -1,1 +1,1 @@
-execute as @s[type=minecraft:zombie_pigman] run tag @e[predicate=gm:execution/aec_tracking,limit=1,sort=nearest,distance=..1] add gm.exe.zombie
+execute as @s[type=minecraft:zombie_pigman] run tag @e[predicate=gm:execution/tracking_entity,limit=1,sort=nearest,distance=..1] add gm.exe.zombie
