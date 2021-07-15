@@ -34,9 +34,9 @@ tag @e remove bloodM
 tag @e remove bloodL
 tag @e remove suffoc
 
+function fktool:uninstall
+
 datapack disable "file/GoreMod"
 datapack disable "file/GoreMod-master"
-
-function fktool:uninstall
 
 reload
